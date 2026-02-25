@@ -1,0 +1,15 @@
+DevSoc Subcommittee Recruitment: Frontend
+
+- Completed with React, Vite, TS.
+- Stretch Task 1 and Stretch Task 2 both attempted.
+- Imports data from data.json (modified)
+
+To run:
+$ npm i
+
+For development:
+$ npm run dev
+
+For production:
+$ npm run build
+$ npm run preview

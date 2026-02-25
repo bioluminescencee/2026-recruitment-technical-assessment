@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    --white: #ffffff;
+    --black: #111111;
+
+    --gray-1: #e9e2dd;
+    --gray-2: #d3cdc8;
+    --gray-3: #837f7d;
+    --text-gray: #777472;
+    --accent: #ef6c00;
+    --accent-light: #f09245;
+
+    --green: #2ead63;
+    --red: #b8351e;
+
+    --bg-color: var(--white);
+    --text-color: var(--black);
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+button, button.active:hover {
+    border: 1px solid var(--accent-light);
+    background-color: transparent;
+    color: var(--accent);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    display: flex;
+    align-items: center;
+}
+button:hover, button.active {
+    border: 1px solid var(--accent);
+    background-color: var(--accent);
+    color: var(--white);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  * {
+    --bg-color: var(--black);
+    --text-color: var(--white);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  * {
+    --bg-color: var(--white);
+    --text-color: var(--black);
+  }
+}

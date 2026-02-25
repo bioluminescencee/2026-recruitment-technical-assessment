@@ -1,0 +1,51 @@
+.navbar {
+    overflow: hidden;
+    position: sticky; 
+    top: 0;
+    z-index: 2;
+    background-color: var(--bg-color);
+    transition-duration: 0.2s;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid var(--gray-3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .right {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--accent);
+}
+.logo-link {
+    text-decoration: underline 0.1em rgba(0, 0, 0, 0); 
+    text-underline-offset: 0.2em;
+    color: var(--accent);
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Josefin Sans";
+    transition-duration: 0.5s;
+}
+.logo-link:visited, .logo-link:link, .logo-link:active {
+    color: var(--accent);
+}
+.logo-link:hover {
+    color: var(--accent-light);
+    text-decoration-color: var(--accent-light);
+    text-underline-offset: 0.4em;
+}
+
+@media screen and (max-width: 480px) {
+    .logo-link {
+        display: none;
+    }
+}
