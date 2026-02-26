@@ -18,6 +18,14 @@ Also, I messed up a little when setting up my account because I lowkey immediate
 
 After all that was done, I had my working homeserver running on my root TLD which I could connect through in Element and send federated messages. And also my webpage was still working!
 
+## Reflections
+If I were to do this again, these are some things I could do differently/additionally
+- Learn how to use the [Traefik](https://github.com/traefik/traefik) proxy since it could be much more useful for Docker/Kubernetes environments such as devsoc Platforms.
+- Take the time to set up Synapse and get a better cloud server OR conduct some deeper research some other potential servers, e.g continuwuity.
+- Also challenge myself by setting up a client
+- Not forget my password
+- Think of a better handle
+
 ## Matrix Handle
 
 `@bioluminescence:bioluminescence.dev`
